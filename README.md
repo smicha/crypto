@@ -1,4 +1,4 @@
-# RESTful API Example with golang
+Restful API Example with golang
 This is a restful api server only with **gorilla/mux** for encryption and decryption of pci data  
 For simplifying code, this example uses a mock database that is `map[string]interface{}`
 
@@ -23,4 +23,8 @@ $ ./crypto
 
 
 ## WITH  DOCKER
-- TODO 
+
+docker build -t  crypto .
+
+ docker run --publish 6060:8080 --name test --rm crypto
+
