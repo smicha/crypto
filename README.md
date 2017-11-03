@@ -1,17 +1,17 @@
 # RESTful API Example with golang
-This is simple example restful api server only with **gorilla/mux**.  
+This is a restful api server only with **gorilla/mux** for encryption and decryption of pci data  
 For simplifying code, this example uses a mock database that is `map[string]interface{}`
 
 ## Install and Run
 ```shell
-$ go get github.com/kkamdooong/go-restful-api-example
+$ go get github.com/smicha/crypto
 
-$ cd $GOPATH/src/github.com/kkamdooong/go-restful-api-example
+$ cd $GOPATH/src/github.com/smicha/crypto
 $ go build
-$ ./go-restful-api-example
+$ ./crypto
 ```
 
-## API Endpoint
+## API Endpoints - just examples .... can change to encrypt and decrypt  
 - http://localhost:3000/api/v1/companies
     - `GET`: get list of companies
     - `POST`: create company
@@ -20,3 +20,7 @@ $ ./go-restful-api-example
     - `PUT`: update company
     - `DELETE`: remove company
 
+
+
+## WITH  DOCKER
+- TODO 

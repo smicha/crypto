@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/kkamdooong/go-restful-api-example/handler"
+	"github.com/smicha/crypto/handler"
 	"log"
 	"net/http"
 )
